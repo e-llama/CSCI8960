@@ -15,7 +15,7 @@ import torch.nn.functional as F
 
 
 def batch2group(module):
-    return nn.GroupNorm(min(32, module.num_features), module.num_features, affine=module.affine)
+    return nn.GroupNorm(min(128, module.num_features), module.num_features, affine=module.affine)
 
 
 def wrn16_4():
