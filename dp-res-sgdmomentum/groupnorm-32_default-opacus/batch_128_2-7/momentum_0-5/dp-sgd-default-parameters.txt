@@ -1,0 +1,12 @@
+MAX_GRAD_NORM = 1.2
+EPSILON = 50.0
+DELTA = 1e-5
+EPOCHS = 20
+LR = 1e-3
+
+BATCH_SIZE = 2^7 = 128
+MAX_PHYSICAL_BATCH_SIZE = 128
+
+lr=0.01
+
+optimizer = sgd_momentum(res_net, 0.5);
